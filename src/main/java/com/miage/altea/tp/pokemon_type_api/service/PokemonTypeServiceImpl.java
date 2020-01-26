@@ -2,9 +2,11 @@ package com.miage.altea.tp.pokemon_type_api.service;
 
 import com.miage.altea.tp.pokemon_type_api.bo.PokemonType;
 import com.miage.altea.tp.pokemon_type_api.repository.PokemonTypeRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class PokemonTypeServiceImpl implements PokemonTypeService{
 
     protected PokemonTypeRepository pokemonTypeRepository;
