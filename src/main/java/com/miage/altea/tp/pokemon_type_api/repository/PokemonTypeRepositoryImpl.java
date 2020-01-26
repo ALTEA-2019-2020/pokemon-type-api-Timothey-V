@@ -39,7 +39,7 @@ public class PokemonTypeRepositoryImpl implements PokemonTypeRepository {
     public PokemonType findPokemonTypeByName(String name) {
         System.out.println("Loading Pokemon information for Pokemon name " + name);
         for (PokemonType pokemon : pokemons) {
-            if (pokemon.getName() == name)
+            if (pokemon.getName().equals(name))
                 return pokemon;
         }
         return null;
