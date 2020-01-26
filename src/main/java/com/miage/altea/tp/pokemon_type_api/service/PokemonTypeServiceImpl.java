@@ -9,7 +9,7 @@ public class PokemonTypeServiceImpl implements PokemonTypeService{
 
     protected PokemonTypeRepository pokemonTypeRepository;
 
-    public PokemonTypeServiceImpl(PokemonTypeRepository pokemonTypeRepository){ // TODO
+    public PokemonTypeServiceImpl(PokemonTypeRepository pokemonTypeRepository){
         this.pokemonTypeRepository = pokemonTypeRepository;
 
     }
